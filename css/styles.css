@@ -234,6 +234,10 @@ display:block;
       column-gap: 1rem;
   }
 }
+.transiciones:hover{
+width: 6rem;
+height: 6rem;
+}
 .servicio {
   display: flex;
   flex-direction: column;
@@ -252,6 +256,7 @@ display:block;
   height: 15rem;
   width: 15rem;
   background-color: var(--primarios);
+  background-image: radial-gradient(rgb(255, 145, 0), yellow);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -386,7 +391,7 @@ button a {
 /***********************************************/
 
 
-                 /**secciones**/
+/**secciones**/
 /**section sobreMi**/
 
   .contenedor-image img {
@@ -401,7 +406,6 @@ button a {
   }
   .contenedor-general {
     background-image: url(../img/bacgroundDeMi.jpg);
-   
   }
   .contenedor-image {
     max-width: 60%;
@@ -518,13 +522,3 @@ section{
   margin-left: 25rem;
   margin-bottom: 10rem;
 }
-
-/**misServicios-Diseño Web**/
-
-
-
-
-
-
-
-
