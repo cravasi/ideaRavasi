@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- estilos -->
+    <!-- normalize va primero, se aplica 'cascada' -->
+    <link rel="preload" href="./css/normalize.css" as="normalize">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- luego la prioridad la tiene font-family -->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <!-- preload= va a cargar las hojas de estilo mas rapido en nuestro sitio web -->
+    <link rel="preload" href="./css/styles.css" as="styles">
+    <!-- ultima prioridad le damos por cascada, a la creada por selectores o especificidades -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--my logo-->
+    <link rel="shortcut icon" href="./img/icono.png">
+
+    <title>Sobre Mi</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="deMi">Sobre Mi</h1>
+        </div>
+
+        <div class="nav_bg">
+            <nav class="navegacion_principal contenedor">
+                <!-- shif+alt y tecla hacia arriba o abajo, copia y pega -->
+                <a href="./index.html">Inicio</a>
+                <a href="./clientes.html">Clientes</a>
+                <div class="dropdown">
+                    <a href="#">Mis Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="./diseñoWeb.html">Diseño web</a>
+                        <a href="./aplicacionesMoviles.html">Aplicaciones Moviles</a>
+                        <a href="./e-Commerce.html">E-Commerce</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="contenedor-general">
+
+            <div class="contenedor-image">
+                <img src="./img/deMi.png" alt="">
+            </div>
+
+            <div class="contenedor-palabras">
+                <p>
+                    Soy Developer Web Full Stack, apasionado por conseguir lo que se propone, analitico desde lo
+                    conceptual y perpicaz en lo laboral. <br><br>
+                    El Desarrollo y Diseño Web es lo que mejor se ve en mi imaginacion, pero el 'detras de escena' me va
+                    de la puta madre..!! <br><br>
+                    Aunque parezca sorprendido, soy apenas un par de gametos ensayando la danza en el callejon de las
+                    citas.
+                    <br><br>
+                    VADEMECUM: 'camina conmigo' y te mostrare el Universo en una 'paleta de colores', enseñare a tus
+                    contactos que la Luna puede bajarse a quien la quiera;
+                    Dejame encerrar tus sentidos, en la valga ilusion de vivir una nueva aventura virtual en el mundo
+                    real..!!
+                    <br><br>
+                    En el mundo real suelo oficiar mi profesion, aunque en el mundo virtual que voy creando suelo
+                    hacerlo
+                    como Developer Web Full Stack.
+                </p>
+                <br>
+                <i>Hoja de Vida:
+                    <ul>Actualmente me desempeño profesionalmente en el Staff del Hospital Regional Ushuaia.
+                        <li>Medcio Cirujano, especialista en Cirugia General.</li>
+                        <li>Cirugia Videolaparoscopica.</li>
+                        <li>Endoscopia Digestiva.</li>
+                        <li>Especialista en Medicina Legal.</li>
+                        <li>Cirujano Ablacionista del INCUCAI.</li>
+                    </ul>
+                </i>
+                <br>
+                <ul>
+                    <strong>
+                        Mi pasión:
+                        <li>Developer Web Full Stack.</li>
+                    </strong>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <footer class="deMi-footer">
+        <p>
+            <em>Todos los Derechos Reservados,</em>Claudio Ravasi-Freelancer
+            <span>
+                <img src="./img/icono.png" alt="" icono>
+            </span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
