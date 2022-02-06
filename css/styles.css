@@ -51,7 +51,6 @@ h3 {
 img {
   width: 5rem;
   position: relative;
-  top: 7px;
 }
 /* clases */
 .sombra {
@@ -87,7 +86,7 @@ img {
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
-  width: 10%;
+  width: auto;
   text-align: center;
   border: none;
   cursor: pointer;
@@ -393,7 +392,17 @@ button a {
 
 /**secciones**/
 /**section sobreMi**/
-
+.posicion{
+  font-size: large;
+  font-weight: bold;
+  width: 20%;
+  height: 6rem;
+  margin-left: 10rem;
+}
+.here{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
   .contenedor-image img {
     width: 90%;
     height: 75%;
@@ -426,7 +435,7 @@ button a {
     left: 70rem;
   }
 .contenedor-image img {
-  width: 90%;
+  width: 100%;
   height: 75%;
   margin: 5rem;
   border-radius: 1rem;
@@ -435,12 +444,18 @@ button a {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
-@media (min-width: 480px) { 
+@media (min-width: 1400px) { 
 .contenedor-general {
   background-image: url(../img/bacgroundDeMi.jpg);
   display: grid;
   grid-template-columns: repeat(2, auto);
   }
+}
+@media (max-width: 1387px) and (min-width: 480px) { 
+    .contenedor-image img{
+      width: 130%;
+    }
+  
 }
 .contenedor-image {
   max-width: 60%;
@@ -458,8 +473,7 @@ button a {
   margin: 0;
 }
 .deMi-footer {
-  position: absolute;
-  left: 70rem;
+  left: 15rem;
 }
 
 /**section clientes**/
@@ -521,4 +535,5 @@ section{
   height: 80vh;
   margin-left: 25rem;
   margin-bottom: 10rem;
+}
 }
