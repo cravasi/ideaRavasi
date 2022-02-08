@@ -30,7 +30,7 @@ body {
     to top,
     var(--gris_claro) 0%,
     var(--blanco) 100%
-  ); 
+  );
 }
 h1 {
   font-size: 3.8rem;
@@ -54,7 +54,7 @@ img {
 }
 /* clases */
 .sombra {
-  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 1); 
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 1);
   background-image: var(--blanco);
   padding: 2rem;
   border-radius: 1rem;
@@ -129,15 +129,15 @@ img {
   background-color: var(--primarios);
   color: var(--oscuro);
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .navegacion_principal {
-      flex-direction: row;
-      justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
-@media (min-width:768px) {
-  .navegacion_principal a{
-      margin-bottom: 0;
+@media (min-width: 768px) {
+  .navegacion_principal a {
+    margin-bottom: 0;
   }
 }
 /*menu desplegable*/
@@ -180,7 +180,6 @@ z-index:1;
 .dropdown:hover .dropdown-content{
 display:block;
 }*/
-
 
 .hero {
   background-image: url(../img/hero.jpg);
@@ -226,22 +225,22 @@ display:block;
   }............NO ME FUNCIONA EN NAVEGADOR */
 
 /* servicios */
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .servicios {
-      display: grid;
-      grid-template-columns: 33.3% 33.3% 33.3%;
-      column-gap: 1rem;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 1rem;
   }
 }
-.transiciones:hover{
-width: 6rem;
-height: 6rem;
+.transiciones:hover {
+  width: 6rem;
+  height: 6rem;
 }
 .servicio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align:center;
+  text-align: center;
 }
 .servicio h3 {
   color: var(--secundario);
@@ -271,8 +270,8 @@ height: 6rem;
   background-color: var(--gris);
   padding: 2rem;
   border-radius: 10px;
-  
-/**opcion 'B'**/
+
+  /**opcion 'B'**/
   /*background-color: var(--gris);
   width: min(60rem, 100%);
   margin: 0 auto;
@@ -287,14 +286,15 @@ height: 6rem;
   border: none;
 }
 .formulario legend {
-    /*text-align: center;
+  /*text-align: center;
     font-size: 1.2rem;
     color: var(--primarios);
     margin-bottom: 2rem;
     display: block;
     text-transform: uppercase;
     font-weight: 700;*/
-/**opcion 'B'**/
+
+  /**opcion 'B'**/
   text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -302,25 +302,25 @@ height: 6rem;
   margin-bottom: 2rem;
   color: var(--primarios);
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .formulario {
-      max-width: 800px;
-      margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
   }
 }
 .campo {
   margin-bottom: 1rem;
   width: 100%;
 }
-@media (min-width:480px) {
+@media (min-width: 480px) {
   .campo {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 768px) {
-  .campo{
-      flex: 0 0 calc(50% - .5rem)
+  .campo {
+    flex: 0 0 calc(50% - 0.5rem);
   }
 }
 .campo label {
@@ -329,80 +329,73 @@ height: 6rem;
   margin-bottom: 0.5rem;
   display: block;
 }
-@media (min-width:480px) {
+@media (min-width: 480px) {
   .campo label {
-      flex: 0 0 90px;
+    flex: 0 0 90px;
   }
-.campo input[type="text"],
-.campo input[type="tel"],
-.campo input[type="mail"],
-
-
-.campo textarea {
-  width: 100%;
-  padding: .5rem;
-  border: none;
-  border-radius: .5rem;
-  height: 4rem;
-}
-.input_text {
-  width: 100%;
-  border: none;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
-}
-@media (min-width: 768px) {
-  :is(.campo) :is( 
-      input[type="text"], 
-      input[type="text"],  
-      input[type="tel"],  
-      input[type="mail"] , 
-      textarea ) {
+  .campo input[type="text"],
+  .campo input[type="tel"],
+  .campo input[type="mail"],
+  .campo textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 4rem;
+  }
+  .input_text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+  @media (min-width: 768px) {
+    :is(.campo)
+      :is(input[type="text"], input[type="text"], input[type="tel"], input[type="mail"], textarea) {
       flex: 1;
+    }
   }
-}
-/* footer */
-.footer {
-  text-align: center;
-  margin-top: 5rem;
-}
-button {
-  width: 5rem;
-  height: 3rem;
-  background-color: var(--secundario);
-  font-weight: bold;
-  border: 0.1rem solid gray;
-  border-radius: 0.3rem;
-  -webkit-border-radius: 0.3rem;
-  -moz-border-radius: 0.3rem;
-  -ms-border-radius: 0.3rem;
-  -o-border-radius: 0.3rem;
-  text-transform: uppercase;
-}
-button a {
-  text-decoration: none;
-  color: var(--gris_claro);
-}
-/***********************************************/
+  /* footer */
+  .footer {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  button {
+    width: 5rem;
+    height: 3rem;
+    background-color: var(--secundario);
+    font-weight: bold;
+    border: 0.1rem solid gray;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    text-transform: uppercase;
+  }
+  button a {
+    text-decoration: none;
+    color: var(--gris_claro);
+  }
+  /***********************************************/
 
-
-/**secciones**/
-/**section sobreMi**/
-.posicion{
-  font-size: large;
-  font-weight: bold;
-  width: 20%;
-  height: 6rem;
-  margin-left: 10rem;
-}
-.here{
-  font-size: 1rem;
-  margin-left: 1rem;
-}
+  /**secciones**/
+  /**section sobreMi**/
+  .posicion {
+    font-size: large;
+    font-weight: bold;
+    width: 20%;
+    height: 6rem;
+    margin-left: 10rem;
+  }
+  .here {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
   .contenedor-image img {
     width: 90%;
     height: 75%;
@@ -434,106 +427,233 @@ button a {
     position: absolute;
     left: 70rem;
   }
-.contenedor-image img {
-  width: 100%;
-  height: 75%;
-  margin: 5rem;
+  .contenedor-image img {
+    width: 100%;
+    height: 75%;
+    margin: 5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+  @media (min-width: 1400px) {
+    .contenedor-general {
+      background-image: url(../img/bacgroundDeMi.jpg);
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+  @media (max-width: 1387px) and (min-width: 480px) {
+    .contenedor-image img {
+      width: 130%;
+    }
+  }
+  .contenedor-image {
+    max-width: 60%;
+  }
+  .contenedor-palabras {
+    line-height: 1.5;
+
+    padding-top: 4rem;
+  }
+  .deMi {
+    color: var(--oscuro);
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  .deMi-footer {
+    left: 15rem;
+  }
+
+  /**section clientes**/
+  main > section > img {
+    width: 12vw;
+    height: 18vh;
+    margin: 3rem 1rem;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedor-clientes {
+    width: 98vw;
+    height: 70vh;
+    margin-top: 5vh;
+    border: 0.2rem;
+    background-color: var(--primarios);
+    color: var(--blanco);
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-evenly;
+  }
+  .clientes {
+    width: 25vw;
+    border: 0.2rem;
+    margin: 2rem;
+    color: var(--oscuro);
+  }
+  .lorena {
+    background-image: url(../img/fondoLorena.jpg);
+  }
+  p:hover {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  .luanda {
+    background-image: url(../img/fondoLuanda.jpg);
+  }
+  .victor {
+    background-image: url(../img/fondoVictor.jpg);
+  }
+  .adom {
+    background-image: url(../img/fondoAdom.jpg);
+  }
+  .lixi {
+    background-image: url(../img/fondoLixi.jpg);
+  }
+  .gahl {
+    background-image: url(../img/fondoGahl.jpg);
+  }
+  .palabras {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    background-color: var(--gris_claro);
+    text-align: center;
+    padding: 2rem;
+  }
+  .marcas {
+    width: 70vw;
+    height: 80vh;
+    margin-left: 25rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1044px) {
+  .marcas {
+    width: 50%;
+    height: auto;
+    margin-left: 15rem;
+  }
+}
+
+/******************************************************************************/
+/**seccion diseñoWeb**/
+
+.footer-diseño {
+  font-size: 2rem; /**resto con bootstrap-example (price)**/
+  margin-left: 5rem;
+}
+
+/********************************************************************************/
+/**seccion e-commerce con bootstrap-example (product) y styles.css*/
+.header {
+  background-color: var(--primarios) !important;
+}
+.e-commerce {
+  font-size: 3.8rem;
+}
+.click-here {
+  font-size: medium;
+}
+.notebook-bolsas {
+  width: 50rem;
+}
+.movil {
+  margin-top: 1rem;
+  width: 30rem;
+}
+.background {
+  background-image: url(../img/Comercio-electrónico.jpg);
+}
+.tablet {
+  background-image: url(../img/Pegaso-Tecnología.jpg);
+}
+.paga-celular {
+  background-image: url(../img/escanea\ y\ paga\ con\ tu\ celular.png);
+}
+.e-commerce-principal {
+  height: 40rem;
+  width: 130rem;
+}
+#boton-ecommerce {
+  width: auto;
+  height: auto;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  background-color: var(--primarios);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+#boton-ecommerce:hover {
+  color: #757575;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
-@media (min-width: 1400px) { 
-.contenedor-general {
-  background-image: url(../img/bacgroundDeMi.jpg);
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+.footer-diseño2 {
+  margin-left: 40%;
+}
+@media (max-width: 480px) {
+  .e-commerce-principal {
+    height: 20rem;
+    width: 30rem;
+  }
+  .footer-diseño2 {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  #boton-ecommerce:hover {
+    display: none;
+    color: #757575;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
-@media (max-width: 1387px) and (min-width: 480px) { 
-    .contenedor-image img{
-      width: 130%;
-    }
-  
+@media (min-width: 481px) and (max-width: 768px) {
+  .e-commerce-principal {
+    height: 25rem;
+    width: 40rem;
+  }
+  .footer-diseño2 {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+  }
 }
-.contenedor-image {
-  max-width: 60%;
-}
-.contenedor-palabras {
-  line-height: 1.5;
-
-  padding-top: 4rem;
-}
-.deMi {
-  color: var(--oscuro);
-  font-family: var(--fuente-principal);
-  font-size: 3rem;
-  padding: 1rem;
-  margin: 0;
-}
-.deMi-footer {
-  left: 15rem;
+@media (min-width: 769px) and (max-width: 1200px) {
+  .e-commerce-principal {
+    height: 30rem;
+    width: 70rem;
+  }
+  .footer-diseño2 {
+    font-size: 1.5rem;
+  }
 }
 
-/**section clientes**/
-main>section>img{
-  width: 12vw;
-  height: 18vh;
-  margin: 3rem 1rem;
-
+/********************************************************************************/
+/**seccion aplicaciones moviles con bootstrap-example (carousel) y styles.css*/
+.img-circular{
+  width: 33%;
+  height: 50%;
+  border: #212121 solid .2rem;
 }
-section{
-  display: flex;
-  flex-direction: row;
+.ios-android{
+  width: 100%;
 }
-.contenedor-clientes{
-  width: 98vw;
-  height: 70vh;
-  margin-top: 5vh;
-  border: .2rem;
-  background-color: var(--gris_claro);
-  color:var(--blanco);
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
-  grid-template-rows: 50% 50%;
-  justify-content: space-evenly;
-}
-.clientes{
-  width: 25vw;
-  border: .2rem;
-  margin: 2rem;
-  color: var(--oscuro);
-}
-.lorena{
-  background-image: url(../img/fondoLorena.jpg);
-}
-.luanda{
-  background-image: url(../img/fondoLuanda.jpg);
-}
-.victor{
-  background-image: url(../img/fondoVictor.jpg);
-}
-.adom{
-  background-image: url(../img/fondoAdom.jpg);
-}
-.lixi{
-  background-image: url(../img/fondoLixi.jpg);
-}
-.gahl{
-  background-image: url(../img/fondoGahl.jpg);
-}
-.palabras{
-  font-size: 2.4rem;
-  text-transform: uppercase;
-  background-color: var(--gris_claro);
-  text-align: center;
-  padding: 2rem;
-}
-.marcas{
-  width: 70vw;
-  height: 80vh;
-  margin-left: 25rem;
-  margin-bottom: 10rem;
-}
+.gap{
+  border-right: .5rem solid beige;
 }
