@@ -1,0 +1,33 @@
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--secundario);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 5rem;
+    position: relative;
+}
+body {
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+    background-image: radial-gradient(
+      to top,
+      var(--gris_claro) 0%,
+      var(--blanco) 100%
+    );
+  }

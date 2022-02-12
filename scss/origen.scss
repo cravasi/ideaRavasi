@@ -1,5 +1,19 @@
 //puro scss
-/*scss traspilado al css*/
+/*scss traspiling al css*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+  }
+  /*Poul Irish*/
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+//variables
 $color-p: rgb(48, 47, 47);
 $color-hover: white;
 p{
@@ -12,9 +26,18 @@ strong{
         color: $color-hover;
     }
 }
+
+//@import
 @import"font";
 @import"variables";
+@import"selectores";
+@import"clases";
+@import"sobreMi";
+@import"diseño";
 
+
+
+//responsive
 @media (max-width: 1600px) { 
     .botonWhatsApp img{
       position: static;

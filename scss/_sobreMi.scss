@@ -1,0 +1,83 @@
+.posicion {
+    font-size: large;
+    font-weight: bold;
+    width: 20%;
+    height: 6rem;
+    margin-left: 10rem;
+  }
+  .here {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .contenedor-image img {
+    width: 90%;
+    height: 75%;
+    margin: 5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+  .contenedor-general {
+    background-image: url(../img/bacgroundDeMi.jpg);
+  }
+  .contenedor-image {
+    max-width: 60%;
+  }
+  .contenedor-palabras {
+    line-height: 1.5;
+    padding-top: 4rem;
+  }
+  .deMi {
+    color: var(--oscuro);
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  .deMi-footer {
+    position: absolute;
+    left: 70rem;
+  }
+  .contenedor-image img {
+    width: 100%;
+    height: 75%;
+    margin: 5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+  @media (min-width: 1400px) {
+    .contenedor-general {
+      background-image: url(../img/bacgroundDeMi.jpg);
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+  @media (max-width: 1387px) and (min-width: 480px) {
+    .contenedor-image img {
+      width: 130%;
+    }
+  }
+  .contenedor-image {
+    max-width: 60%;
+  }
+  .contenedor-palabras {
+    line-height: 1.5;
+
+    padding-top: 4rem;
+  }
+  .deMi {
+    color: var(--oscuro);
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  .deMi-footer {
+    left: 15rem;
+  }
+  
