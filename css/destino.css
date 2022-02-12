@@ -1,0 +1,21 @@
+/*scss traspilado al css*/
+p {
+  color: #302f2f;
+}
+
+strong {
+  color: #302f2f;
+}
+strong:hover {
+  color: white;
+}
+
+h1 {
+  color: #272626;
+}
+
+.opacity {
+  opacity: 0.4;
+}
+
+/*# sourceMappingURL=destino.css.map */

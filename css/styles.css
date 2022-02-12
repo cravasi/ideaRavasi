@@ -381,6 +381,12 @@ display:block;
     text-decoration: none;
     color: var(--gris_claro);
   }
+  .botonWhatsApp img{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 140px;
+}
   /***********************************************/
 
   /**secciones**/
@@ -657,3 +663,6 @@ display:block;
 .gap{
   border-right: .5rem solid beige;
 }
+
+/*************************************/
+/**sass-carpeta-destino.css**/

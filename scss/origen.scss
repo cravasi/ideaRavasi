@@ -1,0 +1,30 @@
+//puro scss
+/*scss traspilado al css*/
+$color-p: rgb(48, 47, 47);
+$color-hover: white;
+p{
+    color: $color-p;
+}
+strong{
+    color: $color-p;
+
+    &:hover{
+        color: $color-hover;
+    }
+}
+@import"font";
+@import"variables"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
