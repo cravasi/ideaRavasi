@@ -387,11 +387,7 @@ display:block;
     bottom: 10px;
     right: 140px;
 }
-@media (max-width: 1600px) { 
-    .botonWhatsApp img{
-      position: static;
-    }
-}
+
   /***********************************************/
 
   /**secciones**/

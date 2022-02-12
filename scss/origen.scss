@@ -13,9 +13,13 @@ strong{
     }
 }
 @import"font";
-@import"variables"
+@import"variables";
 
-
+@media (max-width: 1600px) { 
+    .botonWhatsApp img{
+      position: static;
+    }
+}
 
 
 

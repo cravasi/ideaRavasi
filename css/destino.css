@@ -18,4 +18,10 @@ h1 {
   opacity: 0.4;
 }
 
+@media (max-width: 1600px) {
+  .botonWhatsApp img {
+    position: static;
+  }
+}
+
 /*# sourceMappingURL=destino.css.map */
