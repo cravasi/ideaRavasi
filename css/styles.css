@@ -122,7 +122,7 @@
   }
   .contenedor-clientes {
     width: 98vw;
-    height: 70vh;
+    height: 80vh;
     margin-top: 5vh;
     border: 0.2rem;
     background-color: var(--primarios);
@@ -176,20 +176,11 @@
   }
 }
 
-@media (min-width: 480px) and (max-width: 1044px) {
-  .marcas {
-    width: 50%;
-    height: auto;
-    margin-left: 15rem;
-  }
-}
-
-
 
 /********************************************************************************/
 /**seccion e-commerce con bootstrap-example (product) y styles.css*/
 .header {
-  background-color: var(--primarios) !important;
+  background-color: var(--primarios);
 }
 .e-commerce {
   font-size: 3.8rem;

@@ -1,0 +1,17 @@
+//operadores
+$ancho:60vw;
+
+//maps en section 'aplicaciones moviles' del site 
+$map: (
+    primero:#ffc107,
+    segundo: #ffd452,
+    tercero: #fcd973,
+);
+@each $ubicacion, $color in $map{
+    .map--#{$ubicacion}{
+background-color: $color;
+    }
+}
+
+
+

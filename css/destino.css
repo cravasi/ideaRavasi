@@ -427,9 +427,85 @@ button a {
   margin-left: 5rem;
 }
 
+.map--primero {
+  background-color: #ffc107;
+}
+
+.map--segundo {
+  background-color: #ffd452;
+}
+
+.map--tercero {
+  background-color: #fcd973;
+}
+
 @media (max-width: 1600px) {
   .botonWhatsApp img {
     position: static;
+  }
+}
+@media (min-width: 480px) and (max-width: 1044px) {
+  .marcas {
+    width: 50%;
+    height: auto;
+    margin-left: 15rem;
+  }
+}
+@media (min-width: 1044px) and (max-width: 1650px) {
+  .contenedor-clientes {
+    width: 100vw;
+    height: 200vh;
+    margin-top: 5vh;
+    border: 0.2rem;
+    background-color: var(--primarios);
+    color: var(--blanco);
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: space-evenly;
+  }
+
+  .clientes {
+    width: 120%;
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  main > section > img {
+    width: 15vw;
+    height: 25vh;
+    margin: 3rem 1rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 1043px) {
+  .contenedor-clientes {
+    width: 100vw;
+    height: 360vh;
+    margin-top: 5vh;
+    border: 0.2rem;
+    background-color: var(--primarios);
+    color: var(--blanco);
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+    justify-content: space-evenly;
+  }
+
+  .clientes {
+    width: 120%;
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  main > section > img {
+    width: 30vw;
+    /*operador importado de sub carpeta _script.scss*/
+    height: 20vh;
+    margin: 3rem 1rem;
+  }
+
+  .em {
+    color: #f5f6f8;
   }
 }
 
