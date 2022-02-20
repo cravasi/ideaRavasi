@@ -427,6 +427,35 @@ button a {
   margin-left: 5rem;
 }
 
+.button {
+  background-color: var(--secundario);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: auto;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.button-contacto:hover {
+  background-color: #00ff40;
+  font-size: x-large;
+}
+
+.backTo {
+  font-size: 2rem;
+  font-weight: 40;
+}
+
 .map--primero {
   background-color: #ffc107;
 }
@@ -437,6 +466,18 @@ button a {
 
 .map--tercero {
   background-color: #fcd973;
+}
+
+.f1 {
+  color: #161616;
+}
+
+.f2 {
+  color: #3e3f3f;
+}
+
+.f3 {
+  color: #777979;
 }
 
 @media (max-width: 1600px) {

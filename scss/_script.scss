@@ -1,7 +1,41 @@
 //operadores
 $ancho:60vw;
 
-//maps en section 'aplicaciones moviles' del site 
+//@extend.
+.button{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    width: auto;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    &-contacto:hover{
+        background-color: rgb(0, 255, 64);
+        font-size: x-large;
+    }
+}
+
+//mixin.
+@mixin backToTop($tamanio, $peso) {
+    font-size: $tamanio;
+    font-weight: $peso;
+}
+.backTo{
+    @include backToTop(2rem, 40); 
+}
+
+//maps-earch en section 'aplicaciones moviles' del site 
 $map: (
     primero:#ffc107,
     segundo: #ffd452,
@@ -13,5 +47,19 @@ background-color: $color;
     }
 }
 
-
+//maps-get en section
+$div-col7:(
+    div1: rgb(22, 22, 22),
+    div2: rgb(62, 63, 63),
+    div3: rgb(119, 121, 121),
+);
+.f1{
+    color: map-get($map: $div-col7, $key: div1);
+}
+.f2{
+    color: map-get($map: $div-col7, $key: div2);
+}
+.f3{
+    color: map-get($map: $div-col7, $key: div3);
+}
 
