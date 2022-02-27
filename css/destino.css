@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 }
 
+#background-title {
+  background-color: #f5f6f8;
+}
+
 p {
   color: #302f2f;
 }
@@ -352,7 +356,7 @@ button a {
 }
 
 .contenedor-general {
-  background-image: url(../img/bacgroundDeMi.jpg);
+  background-color: aqua;
 }
 
 .contenedor-image {
@@ -390,7 +394,7 @@ button a {
 
 @media (min-width: 1400px) {
   .contenedor-general {
-    background-image: url(../img/bacgroundDeMi.jpg);
+    background-color: aqua;
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
