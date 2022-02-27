@@ -1,16 +1,18 @@
-//puro scss
+@charset "UTF-8";
 /*scss traspiling al css*/
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    scroll-snap-type: y mandatory;
-  }
-  /*Poul Irish*/
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+
+/*Poul Irish*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 :root {
   --blanco: #ffffff;
   --oscuro: #212121;
@@ -18,12 +20,13 @@ html {
   --secundario: #0097a7;
   --gris: #757575;
   --gris_claro: #dfe9f3;
-
   --fuente-principal: 3.8rem;
 }
+
 .formulario fieldset {
   border: none;
 }
+
 .formulario legend {
   /*text-align: center;
     font-size: 1.2rem;
@@ -32,7 +35,6 @@ html {
     display: block;
     text-transform: uppercase;
     font-weight: 700;*/
-
   /**opcion 'B'**/
   text-align: center;
   font-size: 1.8rem;
@@ -41,6 +43,7 @@ html {
   margin-bottom: 2rem;
   color: var(--primarios);
 }
+
 @media (min-width: 768px) {
   .formulario {
     max-width: 800px;
@@ -51,6 +54,7 @@ html {
   margin-bottom: 1rem;
   width: 100%;
 }
+
 @media (min-width: 480px) {
   .campo {
     display: flex;
@@ -75,10 +79,12 @@ main > section > img {
   height: 18vh;
   margin: 3rem 1rem;
 }
+
 section {
   display: flex;
   flex-direction: row;
 }
+
 .contenedor-clientes {
   width: 98vw;
   height: 80vh;
@@ -91,35 +97,44 @@ section {
   grid-template-rows: 50% 50%;
   justify-content: space-evenly;
 }
+
 .clientes {
   width: 25vw;
   border: 0.2rem;
   margin: 2rem;
   color: var(--oscuro);
 }
+
 .lorena {
   background-image: url(../img/fondoLorena.jpg);
 }
+
 p:hover {
   font-weight: bold;
   font-family: sans-serif;
   font-style: italic;
 }
+
 .luanda {
   background-image: url(../img/fondoLuanda.jpg);
 }
+
 .victor {
   background-image: url(../img/fondoVictor.jpg);
 }
+
 .adom {
   background-image: url(../img/fondoAdom.jpg);
 }
+
 .lixi {
   background-image: url(../img/fondoLixi.jpg);
 }
+
 .gahl {
   background-image: url(../img/fondoGahl.jpg);
 }
+
 .palabras {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -127,42 +142,53 @@ p:hover {
   text-align: center;
   padding: 2rem;
 }
+
 .marcas {
   width: 70vw;
   height: 80vh;
   margin-left: 25rem;
   margin-bottom: 10rem;
 }
+
 /**seccion e-commerce con bootstrap-example (product) y styles.css*/
 .header {
   background-color: var(--primarios);
 }
+
 .e-commerce {
   font-size: 3.8rem;
 }
+
 .click-here {
   font-size: medium;
 }
+
 .notebook-bolsas {
   width: 50rem;
 }
+
 .movil {
   margin-top: 1rem;
   width: 30rem;
 }
+
 .background {
   background-image: url(../img/Comercio-electrónico.jpg);
 }
+
 .tablet {
   background-image: url(../img/Pegaso-Tecnología.jpg);
 }
+
 .paga-celular {
   background-image: url(../img/escanea\ y\ paga\ con\ tu\ celular.png);
 }
+
 .e-commerce-principal {
   height: 40rem;
   width: 130rem;
 }
+
 #boton-ecommerce {
   width: auto;
   height: auto;
@@ -176,6 +202,7 @@ p:hover {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
+
 #boton-ecommerce:hover {
   color: #757575;
   border-radius: 1rem;
@@ -184,18 +211,22 @@ p:hover {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
+
 .footer-diseño2 {
   margin-left: 40%;
 }
+
 @media (max-width: 480px) {
   .e-commerce-principal {
     height: 20rem;
     width: 30rem;
   }
+
   .footer-diseño2 {
     font-size: 1.2rem;
     margin-left: 1rem;
   }
+
   #boton-ecommerce:hover {
     display: none;
     color: #757575;
@@ -211,6 +242,7 @@ p:hover {
     height: 25rem;
     width: 40rem;
   }
+
   .footer-diseño2 {
     font-size: 1.4rem;
     margin-left: 2rem;
@@ -221,52 +253,61 @@ p:hover {
     height: 30rem;
     width: 70rem;
   }
+
   .footer-diseño2 {
     font-size: 1.5rem;
   }
 }
 /**seccion aplicaciones moviles con bootstrap-example (carousel) y styles.css*/
-.img-circular{
+.img-circular {
   width: 33%;
   height: 50%;
-  border: #212121 solid .2rem;
+  border: #212121 solid 0.2rem;
 }
-.ios-android{
+
+.ios-android {
   width: 100%;
 }
-.gap{
-  border-right: .5rem solid beige;
+
+.gap {
+  border-right: 0.5rem solid beige;
 }
+
 .formulario {
   background-color: var(--gris);
   padding: 2rem;
   border-radius: 10px;
 }
+
 .campo label {
   color: var(--blanco);
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
 }
+
 .formulario {
   background-color: var(--gris);
   padding: 2rem;
   border-radius: 10px;
 }
+
 @media (min-width: 480px) {
   .campo label {
     flex: 0 0 90px;
   }
-  .campo input[type="text"],
-  .campo input[type="tel"],
-  .campo input[type="mail"],
-  .campo textarea {
+
+  .campo input[type=text],
+.campo input[type=tel],
+.campo input[type=mail],
+.campo textarea {
     width: 100%;
     padding: 0.5rem;
     border: none;
     border-radius: 0.5rem;
     height: 4rem;
   }
+
   .input_text {
     width: 100%;
     border: none;
@@ -277,11 +318,10 @@ p:hover {
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
   }
-  @media (min-width: 768px) {
-    :is(.campo)
-      :is(input[type="text"], input[type="text"], input[type="tel"], input[type="mail"], textarea) {
-      flex: 1;
-    }
+}
+@media (min-width: 480px) and (min-width: 768px) {
+  :is(.campo) :is(input[type=text], input[type=text], input[type=tel], input[type=mail], textarea) {
+    flex: 1;
   }
 }
 /**section clientes**/
@@ -290,10 +330,12 @@ main > section > img {
   height: 18vh;
   margin: 3rem 1rem;
 }
+
 section {
   display: flex;
   flex-direction: row;
 }
+
 .contenedor-clientes {
   width: 98vw;
   height: 80vh;
@@ -306,35 +348,44 @@ section {
   grid-template-rows: 50% 50%;
   justify-content: space-evenly;
 }
+
 .clientes {
   width: 25vw;
   border: 0.2rem;
   margin: 2rem;
   color: var(--oscuro);
 }
+
 .lorena {
   background-image: url(../img/fondoLorena.jpg);
 }
+
 p:hover {
   font-weight: bold;
   font-family: sans-serif;
   font-style: italic;
 }
+
 .luanda {
   background-image: url(../img/fondoLuanda.jpg);
 }
+
 .victor {
   background-image: url(../img/fondoVictor.jpg);
 }
+
 .adom {
   background-image: url(../img/fondoAdom.jpg);
 }
+
 .lixi {
   background-image: url(../img/fondoLixi.jpg);
 }
+
 .gahl {
   background-image: url(../img/fondoGahl.jpg);
 }
+
 .palabras {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -342,42 +393,53 @@ p:hover {
   text-align: center;
   padding: 2rem;
 }
+
 .marcas {
   width: 70vw;
   height: 80vh;
   margin-left: 25rem;
   margin-bottom: 10rem;
 }
+
 /**seccion e-commerce con bootstrap-example (product) y styles.css*/
 .header {
   background-color: var(--primarios);
 }
+
 .e-commerce {
   font-size: 3.8rem;
 }
+
 .click-here {
   font-size: medium;
 }
+
 .notebook-bolsas {
   width: 50rem;
 }
+
 .movil {
   margin-top: 1rem;
   width: 30rem;
 }
+
 .background {
   background-image: url(../img/Comercio-electrónico.jpg);
 }
+
 .tablet {
   background-image: url(../img/Pegaso-Tecnología.jpg);
 }
+
 .paga-celular {
   background-image: url(../img/escanea\ y\ paga\ con\ tu\ celular.png);
 }
+
 .e-commerce-principal {
   height: 40rem;
   width: 130rem;
 }
+
 #boton-ecommerce {
   width: auto;
   height: auto;
@@ -391,6 +453,7 @@ p:hover {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
+
 #boton-ecommerce:hover {
   color: #757575;
   border-radius: 1rem;
@@ -399,18 +462,22 @@ p:hover {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
+
 .footer-diseño2 {
   margin-left: 40%;
 }
+
 @media (max-width: 480px) {
   .e-commerce-principal {
     height: 20rem;
     width: 30rem;
   }
+
   .footer-diseño2 {
     font-size: 1.2rem;
     margin-left: 1rem;
   }
+
   #boton-ecommerce:hover {
     display: none;
     color: #757575;
@@ -426,6 +493,7 @@ p:hover {
     height: 25rem;
     width: 40rem;
   }
+
   .footer-diseño2 {
     font-size: 1.4rem;
     margin-left: 2rem;
@@ -436,72 +504,510 @@ p:hover {
     height: 30rem;
     width: 70rem;
   }
+
   .footer-diseño2 {
     font-size: 1.5rem;
   }
 }
 /**seccion aplicaciones moviles con bootstrap-example (carousel) y styles.css*/
-.img-circular{
+.img-circular {
   width: 33%;
   height: 50%;
-  border: #212121 solid .2rem;
+  border: #212121 solid 0.2rem;
 }
-.ios-android{
+
+.ios-android {
   width: 100%;
 }
-.gap{
-  border-right: .5rem solid beige;
+
+.gap {
+  border-right: 0.5rem solid beige;
 }
 
+#background-title {
+  background-color: #f5f6f8;
+}
 
+p {
+  color: #302f2f;
+}
 
+strong {
+  color: #302f2f;
+}
+strong:hover {
+  color: white;
+}
 
+h1 {
+  color: #272626;
+}
 
+.opacity {
+  opacity: 0.4;
+}
 
-  #background-title{
-    background-color: #f5f6f8;
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secundario);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 5rem;
+  position: relative;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Krub", sans-serif;
+  background-image: radial-gradient(to top, var(--gris_claro) 0%, var(--blanco) 100%);
+}
+
+/* clases */
+.sombra {
+  box-shadow: 0px 5px 15px 0px #707070;
+  background-image: var(--blanco);
+  padding: 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+/* titulo */
+.titulo span {
+  font-size: 2rem;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: var(--secundario);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: auto;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/*utilidades*/
+.w-sm-100 {
+  width: 20rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.alinear_derecha {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* navBar */
+.nav_bg {
+  background-color: var(--secundario);
+}
+
+.navegacion_principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.navegacion_principal {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navegacion_principal a {
+  display: block;
+  text-align: center;
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.navegacion_principal a:hover {
+  background-color: var(--primarios);
+  color: var(--oscuro);
+}
+
+@media (min-width: 768px) {
+  .navegacion_principal {
+    flex-direction: row;
+    justify-content: space-between;
   }
-
-//variables
-$color-p: rgb(48, 47, 47);
-$color-hover: white;
-p{
-    color: $color-p;
 }
-strong{
-    color: $color-p;
-
-    &:hover{
-        color: $color-hover;
-    }
+@media (min-width: 768px) {
+  .navegacion_principal a {
+    margin-bottom: 0;
+  }
+}
+/*menu desplegable*/
+.dropdown {
+  display: inline-block;
 }
 
-//@import
-@import"font";
-@import"variables";
-@import"selectores";
-@import"clases";
-@import"sobreMi";
-@import"diseño";
-@import"script";
-
-
-
-//responsive
-@media (max-width: 1600px) { 
-    .botonWhatsApp img{
-      position: static;
-    }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--secundario);
+  min-width: 120px;
+  z-index: 1;
 }
 
+.dropdown-content a {
+  color: var(--gris_claro);
+  padding: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: block;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*'opcion 2'
+.dropdown{
+display: inline-block;
+}
+.dropdown-content{
+display:none;
+position:absolute;
+z-index:1;
+}
+.dropdown-content a{
+  text-decorations:none
+}
+.dropdown:hover .dropdown-content{
+display:block;
+}*/
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  margin-bottom: 2rem;
+  /* si estaria aplicado la regla en HTML del border-box inicial, 
+  aqui se sumarian los 450 del alto + los 40 del padding y seria de 490 el alto del box o caja*/
+  position: relative;
+  /*el padre siempre debe tener position RELATIVE, 
+  asi el hijo se posisiona en ABSOLUTE, sino se posiciona relativo al body que es 
+  contener padre por defecto..!! y se recomienda siempre insertar un width and height*/
+}
+
+.contenido_hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /*por defecto alinea en row u horizontal*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  me permite alinear el box tanto horizontal como verticalmente*/
+}
+
+.contenido_hero h2,
+.contenido_hero p {
+  color: var(--blanco);
+}
+
+.ubicacion {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* scroll-snap 
+  .servicos, .navegacion_principal, .formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }............NO ME FUNCIONA EN NAVEGADOR */
+/* servicios */
+@media (min-width: 768px) {
+  .servicios {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 1rem;
+  }
+}
+.transiciones:hover {
+  width: 6rem;
+  height: 6rem;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.servicio h3 {
+  color: var(--secundario);
+  font-weight: normal;
+  text-align: center;
+}
+
+.servicio p {
+  line-height: 2;
+}
+
+.servicio .iconos {
+  height: 15rem;
+  width: 15rem;
+  background-color: var(--primarios);
+  background-image: radial-gradient(#ff9100, yellow);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+  background-color: var(--secundario);
+  font-weight: bold;
+  border: 0.1rem solid gray;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  text-transform: uppercase;
+}
+
+button a {
+  text-decoration: none;
+  color: var(--gris_claro);
+}
+
+.botonWhatsApp img {
+  width: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 140px;
+}
+
+.posicion {
+  font-size: large;
+  font-weight: bold;
+  width: 20%;
+  height: 6rem;
+  margin-left: 10rem;
+}
+
+.here {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.contenedor-image img {
+  width: 90%;
+  height: 75%;
+  margin: 5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.contenedor-general {
+  background-color: aqua;
+}
+
+.contenedor-image {
+  max-width: 60%;
+}
+
+.contenedor-palabras {
+  line-height: 1.5;
+  padding-top: 4rem;
+}
+
+.deMi {
+  color: var(--oscuro);
+  font-family: var(--fuente-principal);
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.deMi-footer {
+  position: absolute;
+  left: 70rem;
+}
+
+.contenedor-image img {
+  width: 100%;
+  height: 75%;
+  margin: 5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+@media (min-width: 1400px) {
+  .contenedor-general {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 1387px) and (min-width: 480px) {
+  .contenedor-image img {
+    width: 130%;
+  }
+}
+.contenedor-image {
+  max-width: 60%;
+}
+
+.contenedor-palabras {
+  line-height: 1.5;
+  padding-top: 4rem;
+}
+
+.deMi {
+  color: var(--oscuro);
+  font-family: var(--fuente-principal);
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.deMi-footer {
+  left: 15rem;
+}
+
+.footer-diseño {
+  font-size: 2rem;
+  /**resto con bootstrap-example (price)**/
+  margin-left: 5rem;
+}
+
+.button {
+  background-color: var(--secundario);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: auto;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.button-contacto:hover {
+  background-color: #00ff40;
+  font-size: x-large;
+}
+
+.backTo {
+  font-size: 2rem;
+  font-weight: 40;
+}
+
+.map--primero {
+  background-color: #ffc107;
+}
+
+.map--segundo {
+  background-color: #ffd452;
+}
+
+.map--tercero {
+  background-color: #fcd973;
+}
+
+.f1 {
+  color: #161616;
+}
+
+.f2 {
+  color: #3e3f3f;
+}
+
+.f3 {
+  color: #777979;
+}
+
+@media (max-width: 1600px) {
+  .botonWhatsApp img {
+    position: static;
+  }
+}
 @media (min-width: 480px) and (max-width: 1044px) {
   .marcas {
     width: 50%;
     height: auto;
     margin-left: 15rem;
-   } 
+  }
 }
-@media (min-width: 1044px) and (max-width: 1650px) { 
+@media (min-width: 1044px) and (max-width: 1650px) {
   .contenedor-clientes {
     width: 100vw;
     height: 200vh;
@@ -514,19 +1020,20 @@ strong{
     grid-template-rows: 30% 30% 30%;
     justify-content: space-evenly;
   }
-  .clientes{
+
+  .clientes {
     width: 120%;
     height: auto;
     font-size: 1.5rem;
   }
+
   main > section > img {
     width: 15vw;
     height: 25vh;
     margin: 3rem 1rem;
+  }
 }
-}
-
-@media (min-width: 480px) and (max-width: 1043px) { 
+@media (min-width: 480px) and (max-width: 1043px) {
   .contenedor-clientes {
     width: 100vw;
     height: 360vh;
@@ -539,28 +1046,23 @@ strong{
     grid-template-rows: 15% 15% 15% 15% 15% 15%;
     justify-content: space-evenly;
   }
-  .clientes{
+
+  .clientes {
     width: 120%;
     height: auto;
     font-size: 1.5rem;
   }
+
   main > section > img {
-    width: calc($ancho/2); /*operador importado de sub carpeta _script.scss*/
+    width: 30vw;
+    /*operador importado de sub carpeta _script.scss*/
     height: 20vh;
     margin: 3rem 1rem;
-    
+  }
+
+  .em {
+    color: #f5f6f8;
+  }
 }
-.em{
-  color: #f5f6f8;
-}
-}
 
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=destino.css.map */
