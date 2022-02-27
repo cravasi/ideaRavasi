@@ -20,6 +20,6 @@
   "homepage": "https://github.com/cravasi/ideaRavasi#readme",
   "devDependencies": {
     "nodemon": "^2.0.15",
-    "sass": "^1.49.7"
+    "sass": "^1.49.9"
   }
 }
