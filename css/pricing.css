@@ -1,12 +1,12 @@
 body {
   background-color: #ffc107;
 }
-#p{
+#p {
   color: white;
   font-size: medium;
 }
 
-#footer-diseñoWeb{
+#footer-diseñoWeb {
   margin-left: 30%;
 }
 .container {
@@ -16,4 +16,3 @@ body {
 .pricing-header {
   max-width: 700px;
 }
-
