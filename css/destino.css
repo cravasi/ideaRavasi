@@ -44,7 +44,7 @@ html {
   color: var(--primarios);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .formulario {
     max-width: 800px;
     margin: 0 auto;
@@ -677,6 +677,7 @@ button a {
 .contenedor-palabras {
   line-height: 1.5;
   padding-top: 4rem;
+  margin: 2rem;
 }
 
 .deMi {
@@ -710,9 +711,17 @@ button a {
     grid-template-columns: repeat(2, auto);
   }
 }
-@media (max-width: 1387px) and (min-width: 480px) {
+@media (min-width: 320px) and (max-width: 621px) {
   .contenedor-image img {
     width: 130%;
+  }
+
+  .deMi {
+    color: var(--oscuro);
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 4rem;
   }
 }
 .contenedor-image {
@@ -724,12 +733,8 @@ button a {
   padding-top: 4rem;
 }
 
-.deMi {
-  color: var(--oscuro);
-  font-family: var(--fuente-principal);
-  font-size: 3rem;
-  padding: 1rem;
-  margin: 0;
+.marquee {
+  color: black;
 }
 
 .deMi-footer {
@@ -803,15 +808,15 @@ button a {
 }
 @media (min-width: 480px) and (max-width: 1044px) {
   .marcas {
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-left: 15rem;
+    margin-left: 20%;
   }
 }
-@media (min-width: 1044px) and (max-width: 1650px) {
+@media (min-width: 1045px) and (max-width: 1890px) {
   .contenedor-clientes {
-    width: 100vw;
-    height: 200vh;
+    width: 110vw;
+    height: 125vh;
     margin-top: 5vh;
     border: 0.2rem;
     background-color: var(--primarios);
@@ -822,10 +827,20 @@ button a {
     justify-content: space-evenly;
   }
 
+  .em {
+    color: #f5f6f8;
+  }
+
   .clientes {
     width: 120%;
     height: auto;
     font-size: 1.5rem;
+  }
+
+  .marcas {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
   }
 
   main > section > img {
@@ -837,7 +852,7 @@ button a {
 @media (min-width: 480px) and (max-width: 1043px) {
   .contenedor-clientes {
     width: 100vw;
-    height: 360vh;
+    height: 200vh;
     margin-top: 5vh;
     border: 0.2rem;
     background-color: var(--primarios);
@@ -866,7 +881,7 @@ button a {
   }
 }
 /* responsive 320/620 */
-@media (min-width: 621px) and (max-width: 1660px) {
+@media (min-width: 621px) and (max-width: 1880px) {
   .responsive320-620 {
     display: none;
   }

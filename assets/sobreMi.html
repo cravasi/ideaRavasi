@@ -47,8 +47,9 @@
 </head>
 
 <body>
+    <!-- navBar responsive 621/768/1640px -->
     <header>
-        <h1 class="titulo responsive621-1660">Claudio Ravasi <span id="up">Freelancer</span>
+        <h1 class="titulo responsive621-1660">Claudio Ravasi <span>Freelancer</span>
             <a href="../index.html"><img src="../img/icono.png" alt="" icono></a>
         </h1>
         <div class="nav_bg responsive621-1660">
@@ -67,7 +68,7 @@
             </nav>
         </div>
 
-
+        <!-- navBar responsive 480/620 -->
         <div class="responsive320-620">
             <nav class="navbar navbar-light fixed-top color-bkg">
                 <div class="container-fluid">
@@ -88,23 +89,25 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                                 </li>
-                
+
                                 <li class="nav-item">
                                     <a class="nav-link" href="../assets/clientes.html">Clientes</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Mis Servicios
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                         <li><a class="dropdown-item" href="../assets/diseñoWeb.html">Diseño Web</a></li>
                                         <hr>
-                                        <li><a class="dropdown-item" href="../assets/aplicacionesMoviles.html">Aplicaciones Moviles</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="../assets/aplicacionesMoviles.html">Aplicaciones Moviles</a></li>
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
-                                        <li><a class="dropdown-item" href="../assets/e-Commerce.html">E-Commerce</a></li>
+                                        <li><a class="dropdown-item" href="../assets/e-Commerce.html">E-Commerce</a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -118,8 +121,6 @@
                 </div>
             </nav>
         </div>
-
-
 
         <div>
             <h1 class="deMi">Sobre Mi</h1>
@@ -160,8 +161,8 @@
                     </ul>
                 </i>
                 <br>
-
-                <strong>
+                <strong class="responsive621-1660">
+                    <!--desaparezco el boton de click-here porque es un popover y en el mobile que da sobrecargado-->
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary posicion" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
@@ -178,14 +179,13 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Forever</h5>
+                                    <h5 class="modal-title marquee" id="staticBackdropLabel">Forever</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    <marquee behavior="scroll" direction="left" loop="-1">Developer Web Full Stack in
-                                        CoderHouse..!!
-                                    </marquee>
+                                <div class="modal-body marquee">
+                                    <marquee behavior="scroll" direction="" loop="3" bgcolor="aqua">Developer Web Full
+                                        Stack in CoderHouse..!!</marquee>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -200,13 +200,6 @@
     </header>
 
 
-
-
-
-
-    <br>
-    <br>
-
     <footer class="footer">
         <div class="container">
             <p>&copy; 2017–2021 Company, Inc. </p>
@@ -218,7 +211,6 @@
             </div>
         </span>
     </footer>
-
 </body>
 
 </html>

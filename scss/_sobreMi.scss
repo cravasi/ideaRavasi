@@ -28,6 +28,7 @@
   .contenedor-palabras {
     line-height: 1.5;
     padding-top: 4rem;
+    margin: 2rem;
   }
   .deMi {
     color: var(--oscuro);
@@ -36,6 +37,7 @@
     padding: 1rem;
     margin: 0;
   }
+  
   .deMi-footer {
     position: absolute;
     left: 70rem;
@@ -57,9 +59,16 @@
       grid-template-columns: repeat(2, auto);
     }
   }
-  @media (max-width: 1387px) and (min-width: 480px) {
+  @media (min-width: 320px) and (max-width: 621px) {
     .contenedor-image img {
       width: 130%;
+    }
+    .deMi {
+      color: var(--oscuro);
+      font-family: var(--fuente-principal);
+      font-size: 3rem;
+      padding: 1rem;
+      margin-top: 4rem;
     }
   }
   .contenedor-image {
@@ -70,12 +79,8 @@
 
     padding-top: 4rem;
   }
-  .deMi {
-    color: var(--oscuro);
-    font-family: var(--fuente-principal);
-    font-size: 3rem;
-    padding: 1rem;
-    margin: 0;
+  .marquee{
+    color: black;
   }
   .deMi-footer {
     left: 15rem;
