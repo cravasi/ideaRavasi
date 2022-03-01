@@ -871,6 +871,14 @@ button a {
     display: none;
   }
 }
+.color-bkg {
+  background-color: #0097a7;
+}
+
+.color-hamb {
+  background-color: #ffc107;
+}
+
 /* responsive 621/1660 */
 @media (min-width: 10px) and (max-width: 620px) {
   .responsive621-1660 {
