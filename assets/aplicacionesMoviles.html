@@ -4,24 +4,50 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- estilos -->
+
+<!-- SEO desde aca -->
+<META NAME="DC.Language" SCHEME="RFC1766" CONTENT="Spanish">
+<META NAME="AUTHOR" CONTENT="claudio ravasi">
+<META NAME="REPLY-TO" CONTENT="claudioravasi@outlook.com">
+<LINK REV="made" href="mailto:claudioravasi@outlook.com">
+<META NAME="DESCRIPTION" CONTENT="Aplicaciones moviles para tu web">
+<META NAME="KEYWORDS" CONTENT="mobile, moviles, firts, responsive, aplicaciones.">
+<META NAME="Resource-type" CONTENT="Document">
+<META NAME="DateCreated" CONTENT="Mon, 21 February 2022 00:00:00 GMT+1">
+<META NAME="Revisit-after" CONTENT="2 days">
+<META NAME="robots" content="ALL">
+
+
+<!-- open-graph -->
+<meta property="og:title" content="Aplicaciones Moviless" />
+<meta property="og:type" content="" />
+<meta property="og:url" content="https://www............" />
+<meta property="og:image" content="" />
 
 <!-- luego font-family -->
 <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 
-<!-- ultima cascada la creada por selectores o especificidades -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link rel="shortcut icon" href="../img/icono.png">
+<!-- Bootstrap in-line (css/js)-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
 <!--my logo-->
-
+<link rel="shortcut icon" href="../img/icono.png">
 <title>Aplicaciones Mobiles</title>
-<!-- Bootstrap core CSS -->
-<link href="../css/carousel.css" rel="stylesheet">
-<!-- preload= va a cargar las hojas de estilo mas rapido en nuestro sitio web -->
-<link rel="preload" href="../css/scss.css" as="styles">
-<link rel="stylesheet" href="../css/scss.css">
 
+<!-- css puro para aplicar opciones diferentes al scss -->
+<link href="../css/carousel.css" rel="stylesheet">
+
+<!-- preload= va a cargar las hojas de estilo mas rapido en nuestro sitio web -->
+<link rel="preload" href="../css/destino.css" as="styles">
+
+<!-- estilos scss -->
+<link rel="stylesheet" href="../css/destino.css">
+
+<!-- stilos internos, para dar uso a herramientas aprendidas -->
 <style>
     .bd-placeholder-img {
         font-size: 1.125rem;
@@ -70,162 +96,163 @@
     </div>
 
 
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" /> <img class="opacity" src="../img/hero.jpg" alt="">
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption ">
+                        <h1>Conectado en cada momento.</h1>
+                        <p>No pierdas contacto con tus clientes.</p>
+                        <a class="btn btn-lg btn-primary" href="#responsive">Click Here</a>
+                    </div>
+                </div>
             </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg> <img class="opacity" src="../img/img fondo carousel 2 aplicaciones moviles.jpg"
+                    alt="programando">
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" /> <img class="opacity" src="../img/hero.jpg"
-                            alt="">
-                    </svg>
-
-                    <div class="container">
-                        <div class="carousel-caption ">
-                            <h1>Conectado en cada momento.</h1>
-                            <p>No pierdas contacto con tus clientes.</p>
-                            <a class="btn btn-lg btn-primary" href="#responsive">Click Here</a>
-                        </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Siempre atento a los cambios.</h1>
+                        <p>Siempre activo.</p>
+                        <a class="btn btn-lg btn-primary" href="#cambios">Click Here</a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" />
-                    </svg> <img class="opacity" src="../img/img fondo carousel 2 aplicaciones moviles.jpg"
-                        alt="programando">
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg><img class="opacity" src="../img/img carousel aplicaciones web 3.jpg" alt="JS">
 
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Siempre atento a los cambios.</h1>
-                            <p>Siempre activo.</p>
-                            <a class="btn btn-lg btn-primary" href="#cambios">Click Here</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" />
-                    </svg><img class="opacity" src="../img/img carousel aplicaciones web 3.jpg" alt="JS">
-
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Como estar en la office center.</h1>
-                            <p>Cierra todas las operaciones en cualquier lugar.</p>
-                            <a class="btn btn-lg btn-primary" href="#app">Click Here</a>
-                        </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Como estar en la office center.</h1>
+                        <p>Cierra todas las operaciones en cualquier lugar.</p>
+                        <a class="btn btn-lg btn-primary" href="#app">Click Here</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
 ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container marketing">
+    <div class="container marketing">
 
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4 header gap map--primero">
-                    <img class="img-circular rounded-circle" src="../img/mobilefirst.jpg" alt="">
-                    <rect width="100%" height="100%" fill="#777" />
-                    <h2>Mobile First</h2>
-                    <p>Todas nuestras propuestas son Mobile First.</p>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4 header gap map--primero">
+                <img class="img-circular rounded-circle" src="../img/mobilefirst.jpg" alt="">
+                <rect width="100%" height="100%" fill="#777" />
+                <h2>Mobile First</h2>
+                <p>Todas nuestras propuestas son Mobile First.</p>
 
-                </div><!-- /.col-lg-4 -->
+            </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4 header gap map--segundo">
-                    <img class="img-circular rounded-circle" src="../img/seo.jpg" alt="">
-                    <rect width="100%" height="100%" fill="#777" />
+            <div class="col-lg-4 header gap map--segundo">
+                <img class="img-circular rounded-circle" src="../img/seo.jpg" alt="">
+                <rect width="100%" height="100%" fill="#777" />
 
-                    <h2>Responsive</h2>
-                    <p>Sepa que su site va a ser responsive 320/1600px.</p>
+                <h2>Responsive</h2>
+                <p>Sepa que su site va a ser responsive 320/1600px.</p>
 
-                </div><!-- /.col-lg-4 -->
+            </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4 header map--tercero">
-                    <img class="img-circular rounded-circle" src="../img/collage-frameworks-mobile.png" alt="">
-                    <rect width="100%" height="100%" fill="#777" />
+            <div class="col-lg-4 header map--tercero">
+                <img class="img-circular rounded-circle" src="../img/collage-frameworks-mobile.png" alt="">
+                <rect width="100%" height="100%" fill="#777" />
 
-                    <h2>Utilidad</h2>
-                    <p>Su site 100% compatible con todos los navegadores web.</p>
+                <h2>Utilidad</h2>
+                <p>Su site 100% compatible con todos los navegadores web.</p>
 
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
-
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 f1">
-                    <h2 id="cambios" class="featurette-heading">Primeros en logistica de sofware. <span
-                            class="text-muted">I.O.S o Android.</span></h2>
-                    <p class="lead">Navega con los principales Smart-Phone del mercado, aplica en cada momento
-                        lasdesiciones que te surjan, no lo dejes y olvides..</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="ios-android" src="../img/iosAndroi.jpg" alt="">
-                    <rect width="100%" height="100%" fill="#eee" />
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
 
 
-                </div>
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 f1">
+                <h2 id="cambios" class="featurette-heading">Primeros en logistica de sofware. <span
+                        class="text-muted">I.O.S o Android.</span></h2>
+                <p class="lead">Navega con los principales Smart-Phone del mercado, aplica en cada momento
+                    lasdesiciones que te surjan, no lo dejes y olvides..</p>
             </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2 f2">
-                    <h2 id="app" class="featurette-heading">Creamos tu App. <span class="text-muted">See for
-                            yourself.</span></h2>
-                    <p class="lead">Interfas amigable y para todas las edades del mercado. Colores calidos y brillantes que no solo atraen tu atencion sino desarrollan tu intuicion.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img class="ios-android" src="../img/creamos tu app.jpg" alt="">
-                    <rect width="100%" height="100%" fill="#eee" />
+            <div class="col-md-5">
+                <img class="ios-android" src="../img/iosAndroi.jpg" alt="">
+                <rect width="100%" height="100%" fill="#eee" />
 
 
-                </div>
             </div>
+        </div>
 
-            <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-            <div class="row featurette">
-                <div class="col-md-7 f3">
-                    <h2 id="responsive" class="featurette-heading">Diseño Mobile First. <span
-                            class="text-muted">Checkmate.</span>
-                    </h2>
-                    <p class="lead">Porque lo hacemos posibles en multiples 'Device', en formato Mobile/Destok/Hig Device.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="ios-android" src="../img/mobile first.png" alt="">
-                    <rect width="100%" height="100%" fill="#eee" /><img class="ios-android" src="./img/mobile first.png"
-                        alt="">
-
-                </div>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 f2">
+                <h2 id="app" class="featurette-heading">Creamos tu App. <span class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead">Interfas amigable y para todas las edades del mercado. Colores calidos y brillantes que
+                    no solo atraen tu atencion sino desarrollan tu intuicion.</p>
             </div>
-
-            <hr class="featurette-divider">
-
-            <!-- /END THE FEATURETTES -->
-
-        </div><!-- /.container -->
+            <div class="col-md-5 order-md-1">
+                <img class="ios-android" src="../img/creamos tu app.jpg" alt="">
+                <rect width="100%" height="100%" fill="#eee" />
 
 
-        <!-- FOOTER -->
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 f3">
+                <h2 id="responsive" class="featurette-heading">Diseño Mobile First. <span
+                        class="text-muted">Checkmate.</span>
+                </h2>
+                <p class="lead">Porque lo hacemos posibles en multiples 'Device', en formato Mobile/Destok/Hig Device.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="ios-android" src="../img/mobile first.png" alt="">
+                <rect width="100%" height="100%" fill="#eee" /><img class="ios-android" src="./img/mobile first.png"
+                    alt="">
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            
+
             <p>&copy; 2017–2021 Company, Inc. </p>
         </div>
         <em>Todos los Derechos Reservados,</em> Claudio Ravasi-Freelancer <span><img src="./img/icono.png" alt="" icono>
