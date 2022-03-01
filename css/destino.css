@@ -795,6 +795,7 @@ button a {
   color: #777979;
 }
 
+/*responsive*/
 @media (max-width: 1600px) {
   .botonWhatsApp img {
     position: static;
@@ -862,6 +863,18 @@ button a {
 
   .em {
     color: #f5f6f8;
+  }
+}
+/* responsive 320/620 */
+@media (min-width: 621px) and (max-width: 1660px) {
+  .responsive320-620 {
+    display: none;
+  }
+}
+/* responsive 621/1660 */
+@media (min-width: 10px) and (max-width: 620px) {
+  .responsive621-1660 {
+    display: none;
   }
 }
 

@@ -1,17 +1,17 @@
 //puro scss
 /*scss traspiling al css*/
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    scroll-snap-type: y mandatory;
-  }
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
 
-  /*Poul Irish*/
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+/*Poul Irish*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 :root {
   --blanco: #ffffff;
@@ -23,9 +23,11 @@ html {
 
   --fuente-principal: 3.8rem;
 }
+
 .formulario fieldset {
   border: none;
 }
+
 .formulario legend {
   /*text-align: center;
     font-size: 1.2rem;
@@ -43,27 +45,32 @@ html {
   margin-bottom: 2rem;
   color: var(--primarios);
 }
+
 @media (min-width: 768px) {
   .formulario {
     max-width: 800px;
     margin: 0 auto;
   }
 }
+
 .campo {
   margin-bottom: 1rem;
   width: 100%;
 }
+
 @media (min-width: 480px) {
   .campo {
     display: flex;
     align-items: center;
   }
 }
+
 @media (min-width: 768px) {
   .campo {
     flex: 0 0 calc(50% - 0.5rem);
   }
 }
+
 .campo label {
   color: var(--blanco);
   font-weight: bold;
@@ -72,15 +79,17 @@ html {
 }
 
 /**section clientes**/
-main > section > img {
+main>section>img {
   width: 12vw;
   height: 18vh;
   margin: 3rem 1rem;
 }
+
 section {
   display: flex;
   flex-direction: row;
 }
+
 .contenedor-clientes {
   width: 98vw;
   height: 80vh;
@@ -93,35 +102,44 @@ section {
   grid-template-rows: 50% 50%;
   justify-content: space-evenly;
 }
+
 .clientes {
   width: 25vw;
   border: 0.2rem;
   margin: 2rem;
   color: var(--oscuro);
 }
+
 .lorena {
   background-image: url(../img/fondoLorena.jpg);
 }
+
 p:hover {
   font-weight: bold;
   font-family: sans-serif;
   font-style: italic;
 }
+
 .luanda {
   background-image: url(../img/fondoLuanda.jpg);
 }
+
 .victor {
   background-image: url(../img/fondoVictor.jpg);
 }
+
 .adom {
   background-image: url(../img/fondoAdom.jpg);
 }
+
 .lixi {
   background-image: url(../img/fondoLixi.jpg);
 }
+
 .gahl {
   background-image: url(../img/fondoGahl.jpg);
 }
+
 .palabras {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -129,6 +147,7 @@ p:hover {
   text-align: center;
   padding: 2rem;
 }
+
 .marcas {
   width: 70vw;
   height: 80vh;
@@ -140,32 +159,41 @@ p:hover {
 .header {
   background-color: var(--primarios);
 }
+
 .e-commerce {
   font-size: 3.8rem;
 }
+
 .click-here {
   font-size: medium;
 }
+
 .notebook-bolsas {
   width: 50rem;
 }
+
 .movil {
   margin-top: 1rem;
   width: 30rem;
 }
+
 .background {
   background-image: url(../img/Comercio-electrónico.jpg);
 }
+
 .tablet {
   background-image: url(../img/Pegaso-Tecnología.jpg);
 }
+
 .paga-celular {
   background-image: url(../img/escanea\ y\ paga\ con\ tu\ celular.png);
 }
+
 .e-commerce-principal {
   height: 40rem;
   width: 130rem;
 }
+
 #boton-ecommerce {
   width: auto;
   height: auto;
@@ -179,6 +207,7 @@ p:hover {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
+
 #boton-ecommerce:hover {
   color: #757575;
   border-radius: 1rem;
@@ -187,18 +216,22 @@ p:hover {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
+
 .footer-diseño2 {
   margin-left: 40%;
 }
+
 @media (max-width: 480px) {
   .e-commerce-principal {
     height: 20rem;
     width: 30rem;
   }
+
   .footer-diseño2 {
     font-size: 1.2rem;
     margin-left: 1rem;
   }
+
   #boton-ecommerce:hover {
     display: none;
     color: #757575;
@@ -209,58 +242,69 @@ p:hover {
     -o-border-radius: 1rem;
   }
 }
+
 @media (min-width: 481px) and (max-width: 768px) {
   .e-commerce-principal {
     height: 25rem;
     width: 40rem;
   }
+
   .footer-diseño2 {
     font-size: 1.4rem;
     margin-left: 2rem;
   }
 }
+
 @media (min-width: 769px) and (max-width: 1200px) {
   .e-commerce-principal {
     height: 30rem;
     width: 70rem;
   }
+
   .footer-diseño2 {
     font-size: 1.5rem;
   }
 }
 
 /**seccion aplicaciones moviles con bootstrap-example (carousel) y scss.css*/
-.img-circular{
+.img-circular {
   width: 33%;
   height: 50%;
   border: #212121 solid .2rem;
 }
-.ios-android{
+
+.ios-android {
   width: 100%;
 }
-.gap{
+
+.gap {
   border-right: .5rem solid beige;
 }
+
 .formulario {
   background-color: var(--gris);
   padding: 2rem;
   border-radius: 10px;
 }
+
 .campo label {
   color: var(--blanco);
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
 }
+
 .formulario {
   background-color: var(--gris);
   padding: 2rem;
   border-radius: 10px;
 }
+
 @media (min-width: 480px) {
   .campo label {
     flex: 0 0 90px;
   }
+
   .campo input[type="text"],
   .campo input[type="tel"],
   .campo input[type="mail"],
@@ -271,6 +315,7 @@ p:hover {
     border-radius: 0.5rem;
     height: 4rem;
   }
+
   .input_text {
     width: 100%;
     border: none;
@@ -281,29 +326,32 @@ p:hover {
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
   }
+
   @media (min-width: 768px) {
-    :is(.campo)
-      :is(input[type="text"], input[type="text"], input[type="tel"], input[type="mail"], textarea) {
+    :is(.campo) :is(input[type="text"], input[type="text"], input[type="tel"], input[type="mail"], textarea) {
       flex: 1;
     }
   }
 }
-#background-title{
-    background-color: #f5f6f8;
-  }
+
+#background-title {
+  background-color: #f5f6f8;
+}
 
 //variables
 $color-p: rgb(48, 47, 47);
 $color-hover: white;
-p{
-    color: $color-p;
-}
-strong{
-    color: $color-p;
 
-    &:hover{
-        color: $color-hover;
-    }
+p {
+  color: $color-p;
+}
+
+strong {
+  color: $color-p;
+
+  &:hover {
+    color: $color-hover;
+  }
 }
 
 //@import
@@ -316,21 +364,23 @@ strong{
 @import"script";
 
 
-
+/*responsive*/
 //responsive
-@media (max-width: 1600px) { 
-    .botonWhatsApp img{
-      position: static;
-    }
+@media (max-width: 1600px) {
+  .botonWhatsApp img {
+    position: static;
+  }
 }
+
 @media (min-width: 480px) and (max-width: 1044px) {
   .marcas {
     width: 50%;
     height: auto;
     margin-left: 15rem;
-   } 
+  }
 }
-@media (min-width: 1044px) and (max-width: 1650px) { 
+
+@media (min-width: 1044px) and (max-width: 1650px) {
   .contenedor-clientes {
     width: 100vw;
     height: 200vh;
@@ -343,18 +393,21 @@ strong{
     grid-template-rows: 30% 30% 30%;
     justify-content: space-evenly;
   }
-  .clientes{
+
+  .clientes {
     width: 120%;
     height: auto;
     font-size: 1.5rem;
   }
-  main > section > img {
+
+  main>section>img {
     width: 15vw;
     height: 25vh;
     margin: 3rem 1rem;
+  }
 }
-}
-@media (min-width: 480px) and (max-width: 1043px) { 
+
+@media (min-width: 480px) and (max-width: 1043px) {
   .contenedor-clientes {
     width: 100vw;
     height: 360vh;
@@ -367,28 +420,36 @@ strong{
     grid-template-rows: 15% 15% 15% 15% 15% 15%;
     justify-content: space-evenly;
   }
-  .clientes{
+
+  .clientes {
     width: 120%;
     height: auto;
     font-size: 1.5rem;
   }
-  main > section > img {
-    width: calc($ancho/2); /*operador importado de sub carpeta _script.scss*/
+
+  main>section>img {
+    width: calc($ancho/2);
+    /*operador importado de sub carpeta _script.scss*/
     height: 20vh;
     margin: 3rem 1rem;
-    
+
+  }
+
+  .em {
+    color: #f5f6f8;
+  }
 }
-.em{
-  color: #f5f6f8;
+
+/* responsive 320/620 */
+@media (min-width:621px) and (max-width:1660px) {
+  .responsive320-620 {
+    display: none;
+  }
 }
+
+/* responsive 621/1660 */
+@media (min-width:10px) and (max-width:620px) {
+  .responsive621-1660 {
+    display:none;
+  }
 }
-
-
-
-
-
-
-
-
-
-
