@@ -865,10 +865,10 @@ button a {
     margin: 3rem 1rem;
   }
 }
-@media (min-width: 480px) and (max-width: 1043px) {
+@media (min-width: 474px) and (max-width: 1043px) {
   .contenedor-clientes {
     width: 100vw;
-    height: 200vh;
+    height: min-content;
     margin-top: 5vh;
     border: 0.2rem;
     background-color: var(--primarios);
@@ -896,8 +896,13 @@ button a {
     color: #f5f6f8;
   }
 }
+@media (min-width: 712px) and (max-width: 1043px) {
+  .clientes {
+    height: min-content;
+  }
+}
 /* responsive 320/620 */
-@media (min-width: 621px) and (max-width: 1880px) {
+@media (min-width: 621px) and (max-width: 1980px) {
   .responsive320-620 {
     display: none;
   }
