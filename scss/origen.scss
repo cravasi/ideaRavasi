@@ -159,7 +159,9 @@ p:hover {
 .header {
   background-color: var(--primarios);
 }
-
+.desktop{
+  color: #918f8f;
+}
 .e-commerce {
   font-size: 3.8rem;
 }
@@ -226,7 +228,9 @@ p:hover {
     height: 20rem;
     width: 30rem;
   }
-
+.abajo{
+  margin-top: 4rem;
+}
   .footer-diseño2 {
     font-size: 1.2rem;
     margin-left: 1rem;
@@ -248,19 +252,23 @@ p:hover {
     height: 25rem;
     width: 40rem;
   }
-
+  .abajo{
+    margin-top: 4rem;
+  }
   .footer-diseño2 {
     font-size: 1.4rem;
     margin-left: 2rem;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1507px) {
   .e-commerce-principal {
     height: 30rem;
     width: 70rem;
   }
-
+  .atras{
+    z-index: -1 !important;
+  }
   .footer-diseño2 {
     font-size: 1.5rem;
   }
