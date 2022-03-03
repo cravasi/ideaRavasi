@@ -23,6 +23,21 @@ html {
   --fuente-principal: 3.8rem;
 }
 
+/*boton send*/
+@keyframes mapa {
+  from {
+    width: 88px;
+  }
+  to {
+    width: 120px;
+  }
+}
+.ushuaia:hover {
+  animation-name: mapa;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .formulario fieldset {
   border: none;
 }
@@ -727,7 +742,7 @@ button a {
     grid-template-columns: repeat(2, auto);
   }
 }
-@media (min-width: 320px) and (max-width: 621px) {
+@media (min-width: 320px) and (max-width: 624px) {
   .contenedor-image img {
     width: 130%;
   }
@@ -738,6 +753,11 @@ button a {
     font-size: 3rem;
     padding: 1rem;
     margin-top: 4rem;
+  }
+}
+@media (min-width: 621px) and (max-width: 624px) {
+  .deMi {
+    margin-top: 0;
   }
 }
 .contenedor-image {
@@ -761,6 +781,10 @@ button a {
   font-size: 2rem;
   /**resto con bootstrap-example (price)**/
   margin-left: 5rem;
+}
+
+.blanco {
+  background-color: white;
 }
 
 .button {
@@ -863,6 +887,12 @@ button a {
     width: 15vw;
     height: 25vh;
     margin: 3rem 1rem;
+  }
+}
+@media (min-width: 1044px) and (max-width: 1889px) {
+  .contenedor-clientes {
+    justify-content: firts baseline;
+    height: min-content;
   }
 }
 @media (min-width: 474px) and (max-width: 1043px) {

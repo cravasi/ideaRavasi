@@ -23,6 +23,20 @@ html {
 
   --fuente-principal: 3.8rem;
 }
+// boton SEND
+/*boton send*/
+
+
+@keyframes mapa {
+  from{width:88px;}
+  to{width:120px;}
+}
+.ushuaia:hover{
+animation-name: mapa;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
 
 .formulario fieldset {
   border: none;
@@ -420,7 +434,12 @@ strong {
     margin: 3rem 1rem;
   }
 }
-
+@media (min-width: 1044px)and(max-width: 1889px){
+  .contenedor-clientes{
+    justify-content:firts baseline;
+    height: min-content;
+  }
+}
 @media (min-width: 474px) and (max-width: 1043px) {
   .contenedor-clientes {
     width: 100vw;
