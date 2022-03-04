@@ -1,4 +1,7 @@
 node_modules/
 wireframe/
+video/
+*.package-lock.json
+*.package.json
 
 
